@@ -1,0 +1,176 @@
+body {
+    background-color: #593979;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding-left: 20px;
+
+}
+
+.button {
+    text-decoration: none;
+    padding: 20px 20px;
+    background-color: #402399;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* xadrez */
+
+menu {
+    margin-left: 450px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tabuleiro {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.linha {
+    display: flex;
+}
+
+.casa {
+    width: 50px;
+    height: 50px;
+}
+
+.claro {
+    background-color: #D8BFD8;
+}
+
+.escuro {
+    background-color: #800080;
+}
+
+/* layout 2 */
+
+.conteudo {
+    margin-left: 150px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+
+.container {
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.caixa {
+    flex: 1;
+    width: 750px;
+    box-sizing: border-box;
+}
+
+.pequena {
+    height: 20vh;
+    background-color: #d8a1e0; /* Roxo claro */
+}
+
+.media {
+    height: 30vh;
+    background-color: #8e44ad; /* Roxo escuro */
+}
+
+.menor {
+    height: 15vh;
+    background-color: #e5b3e5; /* Roxo mais claro */
+}
+
+.grande {
+    height: 35vh;
+    background-color: #6c3483; /* Roxo ainda mais escuro */
+}
+
+.maior {
+    height: 50vh;
+    background-color: #4a235a; /* Roxo muito escuro */
+}
+
+.pequena2 {
+    height: 20vh;
+    background-color: #d8a1e0;
+}
+
+/* layout 3 */
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    background-color: #3b0764;
+    text-align: flex-start;
+    flex: 1;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+
+    flex: 2;
+}
+
+.menu {
+    background-color: #6b21a8;
+    flex: 1;
+}
+
+.content {
+    background-color: #7e22ce;
+    flex: 2;
+}
+
+.ad {
+    background-color: #9333ea;
+    flex: 1;
+}
+
+.footer {
+    background-color: #3b0764;
+    color: white;
+    text-align: flex-start;
+    width: 100%;
+    flex: 1;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button-size {
+    width: 42px;
+    text-align: center;
+}
+
+.big-letters {
+    font-size: xx-large;
+    font-weight: bold;
+}
